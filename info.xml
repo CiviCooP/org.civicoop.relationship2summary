@@ -2,15 +2,15 @@
 <extension key="org.civicoop.relationship2summary" type="module">
   <file>relationship2summary</file>
   <name>Displays relationships in the contact summary</name>
-  <description>Shows a conigured set of relationships on the contact summary screen</description>
+  <description>Shows a configured set of relationships on the contact summary screen</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Jaap Jansma</author>
     <email>jaap@edeveloper.nl</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">https://github.com/org.civicoop.relationship2summary</url>
-    <url desc="Documentation">https://github.com/org.civicoop.relationship2summary/README.md</url>
+    <url desc="Main Extension Page">https://github.com/civicoop/org.civicoop.relationship2summary</url>
+    <url desc="Documentation">https://github.com/civicoop/org.civicoop.relationship2summary/README.md</url>
     <url desc="Support">http://civicoop.org</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>

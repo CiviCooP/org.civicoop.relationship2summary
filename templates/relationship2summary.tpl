@@ -11,7 +11,7 @@
 
         $(".crm-summary-demographic-block").append('<div class="crm-summary-relationships-block crm-inline-edit">' +
             '<div class="crm-edit-help" id="relationshipLink"><span class="crm-i fa-pencil"></span>&nbsp; <span onclick="window.location = \''+relationship2summaryLink+'\';" title="'+ts('Relationships')+'">'+ts('Relationships')+'</span></div>' +
-            '<div class="crm-clear crm-inline-block-content" title="{/literal}{ts}Relationships{/ts}{literal}"></div></div>');
+            '<div class="crm-clear crm-inline-block-content" title="{/literal}{ts escape='htmlattribute'}Relationships{/ts}{literal}"></div></div>');
         relationship2summaryLoad();
 
         $("a[href='#contact-summary']").click(relationship2summaryLoad);

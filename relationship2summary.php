@@ -3,9 +3,9 @@
 require_once 'relationship2summary.civix.php';
 
 function relationship2summary_civicrm_summary($contactId, &$content) {
-  CRM_Core_Region::instance('page-body')->add(array(
+  CRM_Core_Region::instance('page-body')->add([
     'template' => 'relationship2summary.tpl'
-  ));
+  ]);
 }
 
 /**
